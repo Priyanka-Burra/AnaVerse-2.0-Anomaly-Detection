@@ -1,46 +1,37 @@
 # AnaVerse-2.0-Anomaly-Detection
 
-An anomaly detection project developed for the **AnaVerse 2.0 Kaggle Competition**, focusing on identifying abnormal sensor readings using machine learning techniques.
+## Problem Statement
+In sensor-based systems, abnormal readings (anomalies) can indicate faults, failures, or unusual behavior that may impact system performance and reliability.  
+This project focuses on detecting such anomalies in sensor data using machine learning techniques as part of the AnaVerse 2.0 Kaggle Competition.
 
----
+## Dataset
+- **Source:** AnaVerse 2.0 Kaggle Competition dataset  
+- **Type:** Sensor-based numerical data  
+- **Description:** Contains sensor readings where abnormal patterns need to be identified  
+- **Preprocessing:** Data cleaning, scaling, and normalization applied
 
-## 📌 Project Overview
-This project aims to detect anomalies in sensor-based data by building an end-to-end machine learning pipeline. It demonstrates practical skills in data preprocessing, model building, and evaluation using Python.
-
----
-
-## 🎯 Objective
-- Identify anomalous sensor readings  
-- Build a complete anomaly detection pipeline  
-- Apply machine learning techniques to real-world competition data  
-
----
-
-## 🧠 Methodology
-- Data cleaning and preprocessing  
-- Feature scaling and normalization  
-- K-Nearest Neighbors (KNN) for anomaly detection  
-- Model evaluation and generation of submission results  
-
----
-
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - **Programming Language:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn  
+- **Algorithm:** K-Nearest Neighbors (KNN) for anomaly detection  
 - **Environment:** Jupyter Notebook  
 
----
+## Approach
+- Data cleaning and preprocessing to handle inconsistencies  
+- Feature scaling and normalization for distance-based modeling  
+- Applied K-Nearest Neighbors (KNN) to identify anomalous observations  
+- Evaluated model performance and generated predictions  
+- Prepared final output for Kaggle competition submission  
 
-## 📊 Results
-- Successfully built and evaluated an anomaly detection model  
-- Generated predictions for Kaggle competition submission  
-- Demonstrated a complete ML workflow from preprocessing to evaluation  
+## Key Insights
+- Distance-based models like KNN are effective for identifying abnormal sensor patterns  
+- Proper feature scaling significantly improves anomaly detection performance  
+- Preprocessing plays a critical role in detecting subtle anomalies in sensor data  
 
-📓 **Notebook:** `anaverse_anomaly_detection.ipynb`
+## Results
+- Successfully built an end-to-end anomaly detection pipeline  
+- Generated anomaly predictions for competition submission  
+- Demonstrated a complete machine learning workflow from preprocessing to evaluation  
 
----
-
-## 🏁 Competition Status
-✅ Successfully submitted on Kaggle  
-
-This project showcases hands-on experience with real-world data and machine learning pipelines.
+📓 **Notebook:** `anaverse_anomaly_detection.ipynb`  
+🏁 **Competition Status:** Successfully submitted on Kaggle
