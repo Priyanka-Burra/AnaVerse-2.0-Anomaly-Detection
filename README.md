@@ -1,8 +1,6 @@
 # AnaVerse-2.0-Anomaly-Detection
 Anomaly Detection project for AnaVerse 2.0 Kaggle competition using KNN and data preprocessing.
 
-# AnaVerse 2.0 – Anomaly Detection (Kaggle)
-
 ## 📌 Project Overview
 This project was developed as part of the **AnaVerse 2.0 Kaggle Competition**, aiming to detect anomalies from sensor-based data using machine learning techniques.
 
