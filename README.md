@@ -1,11 +1,11 @@
 # AnaVerse-2.0-Anomaly-Detection
 
-Anomaly detection project developed for the **AnaVerse 2.0 Kaggle Competition**, focusing on identifying abnormal sensor readings using machine learning techniques.
+An anomaly detection project developed for the **AnaVerse 2.0 Kaggle Competition**, focusing on identifying abnormal sensor readings using machine learning techniques.
 
 ---
 
 ## 📌 Project Overview
-This project aims to detect anomalies in sensor-based data by building an end-to-end machine learning pipeline. The work demonstrates practical skills in data preprocessing, model building, and evaluation using Python.
+This project aims to detect anomalies in sensor-based data by building an end-to-end machine learning pipeline. It demonstrates practical skills in data preprocessing, model building, and evaluation using Python.
 
 ---
 
@@ -36,8 +36,11 @@ This project aims to detect anomalies in sensor-based data by building an end-to
 - Generated predictions for Kaggle competition submission  
 - Demonstrated a complete ML workflow from preprocessing to evaluation  
 
+📓 **Notebook:** `anaverse_anomaly_detection.ipynb`
+
 ---
 
 ## 🏁 Competition Status
 ✅ Successfully submitted on Kaggle  
+
 This project showcases hands-on experience with real-world data and machine learning pipelines.
