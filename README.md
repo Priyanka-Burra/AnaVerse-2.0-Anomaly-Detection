@@ -8,6 +8,18 @@ This project focuses on identifying anomalies in sensor-based numerical data usi
 
 The final outcome is a robust anomaly detection pipeline capable of highlighting abnormal sensor patterns that may indicate system faults, failures, or unusual behavior.
 
+🔧 Tech Stack
+
+Programming Language: Python
+
+Libraries: Pandas, NumPy, Scikit-learn
+
+Machine Learning Algorithm: K-Nearest Neighbors (KNN)
+
+Techniques: Data Cleaning, Feature Scaling, Distance-Based Modeling
+
+Environment: Jupyter Notebook
+
 🧠 Business Problem
 
 In sensor-driven systems, abnormal readings often signal faults or failures that can negatively impact system performance, safety, and operational efficiency.
@@ -44,29 +56,9 @@ Type: Structured numerical sensor data
 
 Format: CSV
 
-Description: Sensor readings containing normal and abnormal patterns
+Description: Sensor readings containing both normal and abnormal patterns
 
 Preprocessing: Data cleaning, feature scaling, and normalization
-
-🛠️ Tools & Technologies
-
-Programming Language: Python
-
-Libraries: Pandas, NumPy, Scikit-learn
-
-Algorithm: K-Nearest Neighbors (KNN) for anomaly detection
-
-Analysis Techniques:
-
-Data Cleaning
-
-Feature Scaling
-
-Distance-Based Modeling
-
-Environment: Jupyter Notebook
-
-(Job-aligned and ATS-friendly keywords included)
 
 🔄 Project Workflow
 
@@ -120,13 +112,7 @@ Feature scaling comparisons (before vs after normalization)
 
 Distance-based interpretation of anomalous data points
 
-Each visualization is designed to improve interpretability and insight clarity.
-
-🧩 SQL Queries
-
-Not applicable for this project
-
-The dataset was analyzed directly using Python in a notebook-based environment.
+Each visualization improves interpretability and supports analytical conclusions.
 
 ✅ Results & Impact
 
@@ -137,6 +123,9 @@ Successfully generated predictions for Kaggle competition submission
 Demonstrated a real-world machine learning workflow
 
 Showcased strong fundamentals in data preprocessing and modeling
+
+📓 Notebook: anaverse_anomaly_detection.ipynb
+Contains full preprocessing, model implementation, and prediction workflow.
 
 🧪 What I Learned
 
@@ -161,19 +150,15 @@ Integrate dashboards using Power BI or Tableau
 Scale analysis for larger and streaming datasets
 
 📁 Repository Structure
-├── data/
-├── notebooks/
-├── models/
-├── outputs/
+├── anaverse_anomaly_detection.ipynb
 ├── README.md
+├── LICENSE
 
 👤 About Me
 
 Priyanka Burra
 🎓 M.Sc. Bioinformatics
 📊 Aspiring Data Analyst | Python | SQL | Data Analytics
-
-
 
 ⭐ Why This Project Matters
 
